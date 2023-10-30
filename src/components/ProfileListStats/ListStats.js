@@ -1,18 +1,20 @@
+import { List, ListItem, ListNumbers } from './ListStats.styled';
+
 export const ListStats = ({ stats: { followers, views, likes } }) => {
   return (
-    <ul>
-      <li>
+    <List>
+      <ListItem>
         <span>Followers</span>
-        <span>{followers}</span>
-      </li>
-      <li>
+        <ListNumbers>{followers}</ListNumbers>
+      </ListItem>
+      <ListItem>
         <span>Views</span>
-        <span>{views}</span>
-      </li>
-      <li>
+        <ListNumbers>{views}</ListNumbers>
+      </ListItem>
+      <ListItem>
         <span>Likes</span>
-        <span>{likes}</span>
-      </li>
-    </ul>
+        <ListNumbers>{likes}</ListNumbers>
+      </ListItem>
+    </List>
   );
 };
