@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ProfWrapper = styled.div`
   max-width: 260px;
-  margin: 20px;
+  margin: 40px;
   margin-bottom: 70px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;

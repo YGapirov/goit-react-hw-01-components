@@ -14,7 +14,7 @@ export const FriendItem = styled.li`
 
 export const FriendName = styled.p`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
 `;
 
 export const FriendStatus = styled.span`

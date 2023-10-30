@@ -18,7 +18,7 @@ const getBgColor = props => {
 export const StatSection = styled.section`
   max-width: 400px;
   text-align: center;
-  margin: 20px;
+  margin: 40px;
   margin-bottom: 40px;
   border: 1px solid silver;
   border-radius: 8px;
