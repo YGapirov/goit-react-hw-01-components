@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const getBgColor = props => {
-  switch (props.$variant) {
+const getBgColor = p => {
+  switch (p.$variant) {
     case '.docx':
       return 'orange';
     case '.pdf':
