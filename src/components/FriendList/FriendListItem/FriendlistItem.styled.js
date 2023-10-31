@@ -23,5 +23,5 @@ export const FriendStatus = styled.span`
   margin-right: 5px;
   margin-left: 5px;
   border-radius: 50%;
-  background-color: ${props => (props.statusType ? 'green' : 'red')};
+  background-color: ${p => (p.statusType ? 'green' : 'red')};
 `;
